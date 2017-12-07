@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="/" method="post">
+        {% csrf_token %}
+        <label>First Name : </label><input type="text" name="first_name"><br/>
+        <label>Last Name : </label> <input type="text" name="last_name"><br/>
+        <input type="submit" value="Registration">
+    </form>
+    {% for q in query %}
+    {{ q.first }}<br/>
+    {{ q.last }}<br/>
+    {% endfor %}
+
+</body>
+</html>
