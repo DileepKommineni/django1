@@ -13,7 +13,7 @@ boto3==1.4.7
 botocore==1.7.14          # via boto3, s3transfer
 braintree==3.37.2         # via django-payments
 celery[redis]==4.1.0
-certifi==2017.7.27.1      # via requests
+certifi==2022.12.7      # via requests
 cffi==1.10.0              # via cryptography
 chardet==3.0.4            # via requests
 cryptography==2.0.3       # via django-payments
